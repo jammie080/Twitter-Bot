@@ -24,7 +24,7 @@ Download the file from zip as is (Working on a setup folder)
 Extract to any directory 
 
 ```python
-pip install -r requirements.txt
+pip install -r requirements.txt --upgrade
 ```
 
 # Dependencies
@@ -32,6 +32,7 @@ pip install -r requirements.txt
 * BeautifulSoup
 * Selenium
 * python-dotenv
+* FireFox 46.0.1
 
 # Example
 Try out the test file
