@@ -41,7 +41,10 @@ setup(name='Twitter=Bot',
 
       packages=find_packages(exclude=('examples', 'settings','twitter')),
 
-      install_requires=['requirements.txt'],
+      install_requires=[
+      'BeautifulSoup>=3.2.1',
+      'selenium>=2.53.6',
+      'python-dotenv>=0.6.0'],
 
       long_description=read('README.md'),
 
