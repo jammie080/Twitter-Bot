@@ -6,6 +6,9 @@ One day I was looking for a twitter bot or at least an open source one written i
 Okay so here's a quick write up on how to use this. 
 make sure you go to settings and open config Replace 
 ```python
+	
+	#change these settings or this bot will stop working
+
     # Replace this
     TWITTER_STUFF["TWITTER_USERNAME"]
     TWITTER_STUFF["TWITTER_PASSWORD"]
@@ -13,8 +16,6 @@ make sure you go to settings and open config Replace
     # with this
     TWITTER_STUFF["TWITTER_USERNAME"] = yourusernamehere
     TWITTER_STUFF["TWITTER_PASSWORD"] = yourpasswordhere
-
-    #change these settings or this bot will stop working
 
 ```
 
