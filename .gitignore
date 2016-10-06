@@ -4,5 +4,5 @@ settings/.env
 twitter/*.pyc
 test.py
 start.py
-__init__.py
+!__init__.py
 !settings/__init__.py
