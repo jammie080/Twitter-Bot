@@ -10,12 +10,12 @@ make sure you go to settings and open config Replace
 	#change these settings or this bot will stop working
 
     # Replace this
-    TWITTER_STUFF["TWITTER_USERNAME"]
-    TWITTER_STUFF["TWITTER_PASSWORD"]
+    TWITTER_USERNAME = ''
+    TWITTER_PASSWORD = ''
 
     # with this
-    TWITTER_STUFF["TWITTER_USERNAME"] = yourusernamehere
-    TWITTER_STUFF["TWITTER_PASSWORD"] = yourpasswordhere
+    TWITTER_USERNAME = yourusernamehere
+    TWITTER_PASSWORD = yourpasswordhere
 
 ```
 

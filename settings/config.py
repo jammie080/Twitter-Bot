@@ -1,12 +1,16 @@
 from os.path import join, dirname,os
 from dotenv import load_dotenv,find_dotenv
 
-dotenv_path = join(dirname(__file__), '.env')
-load_dotenv(dotenv_path)
-
-TWITTER_STUFF = os.environ.copy()
-TWITTER_STUFF["TWITTER_USERNAME"] 
-TWITTER_STUFF["TWITTER_PASSWORD"]
+try:
+    dotenv_path = join(dirname(__file__), '.env')
+    load_dotenv(dotenv_path)
+    os.system('cls')
+    TWITTER_USERNAME = os.environ.get('')
+    TWITTER_PASSWORD = os.environ.get('')
+except:
+    os.system('cls')
+    TWITTER_USERNAME = ''
+    TWITTER_PASSWORD = ''
 
 twitter = {
     'files': {
@@ -17,8 +21,8 @@ twitter = {
     'auth': {
         'twitter':{
 
-            'username': '%s' % TWITTER_STUFF["TWITTER_USERNAME"],
-            'password': '%s' % TWITTER_STUFF["TWITTER_PASSWORD"]
+            'username': '%s' % TWITTER_USERNAME,
+            'password': '%s' % TWITTER_PASSWORD
 
         }
 
