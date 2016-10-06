@@ -46,7 +46,7 @@ insert the following
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-from twitter import twitter, scraper, auth, logger, user, updater
+from twitter import twitter, scrape, auth, logger, user, updater
 
 firefox_profile = webdriver.FirefoxProfile()
 
