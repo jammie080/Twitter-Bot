@@ -23,8 +23,8 @@ make sure you go to settings and open config Replace
 Download the file from zip as is (Working on a setup folder)
 Extract to any directory 
 
-```python
-pip install -r requirements.txt --\\upgrade
+```html
+pip install -r requirements.txt --upgrade
 ```
 
 # Dependencies
