@@ -64,7 +64,7 @@ This creates a folder in twitter/output/TWITER_HANDLE/followers.txt
 * Add more code examples to readme
 * Start making document
 * Port code over to linux
-* Add setup file for automated installs 
+* Add setup file for automated installs (**current one is 42% complete**)
 
 # Features comming soon
 * Proxy support
