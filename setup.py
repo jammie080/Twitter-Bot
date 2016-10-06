@@ -5,7 +5,7 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(name='Twitter=Bot',
-      version='1.0.5.2',
+      version='1.0.5.3',
 
       description='Just another twitter bot',
 
