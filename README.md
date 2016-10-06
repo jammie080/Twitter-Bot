@@ -54,7 +54,7 @@ driver = webdriver.Firefox(firefox_profile)
 ```
 # Scrape
 
-<h3> User Followers </h3>
+<h4> User Followers </h4>
 
 ```python
 auth = auth.auth(driver)
