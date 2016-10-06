@@ -3,10 +3,11 @@ from dotenv import load_dotenv,find_dotenv
 
 try:
     dotenv_path = join(dirname(__file__), '.env')
-    load_dotenv(dotenv_path)
-    os.system('cls')
-    TWITTER_USERNAME = os.environ.get('')
-    TWITTER_PASSWORD = os.environ.get('')
+    if dotenv:
+        load_dotenv(dotenv_path)
+        os.system('cls')
+        TWITTER_USERNAME = os.environ.get('')
+        TWITTER_PASSWORD = os.environ.get('')
 except:
     os.system('cls')
     TWITTER_USERNAME = ''
