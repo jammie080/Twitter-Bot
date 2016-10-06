@@ -22,7 +22,7 @@ class updater:
         if self.version != self.serverVersion:
             if self.version <= self.serverVersion:
                 print "Update available"
-                print "Current version {}".format(self.serverVersion)
+                print "Latest version {}".format(self.serverVersion)
                 print "Downloading update"
                 self.download('https://github.com/jammie080/Twitter-Bot/archive/master.zip')
                 
