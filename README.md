@@ -14,8 +14,9 @@ make sure you go to settings and open config Replace
     TWITTER_STUFF["TWITTER_USERNAME"] = yourusernamehere
     TWITTER_STUFF["TWITTER_PASSWORD"] = yourpasswordhere
 
+    #change these settings or this bot will stop working
+
 ```
-<h2> change these settings or this bot will stop working </h2>
 
 # How to install
 Download the file from zip as is (Working on a setup folder)
