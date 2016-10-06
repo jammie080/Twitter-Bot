@@ -5,9 +5,11 @@ try:
     dotenv_path = join(dirname(__file__), '.env')
     if dotenv:
         load_dotenv(dotenv_path)
+        os.system('cls')
         TWITTER_USERNAME = os.environ.get('')
         TWITTER_PASSWORD = os.environ.get('')
 except:
+    os.system('cls')
     TWITTER_USERNAME = ''
     TWITTER_PASSWORD = ''
 
