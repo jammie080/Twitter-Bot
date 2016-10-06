@@ -64,6 +64,14 @@ scrape.user_followers(TWITER_HANDLE)
 ```
 This creates a folder in twitter/output/TWITER_HANDLE/followers.txt
 
+# Update
+```python
+update = updater.updater()
+
+update.check()
+```
+This will check for latest update on github
+
 # To Do
 * Clean up user_following code too much duplicate code
 * Clean up folder structure
@@ -85,7 +93,7 @@ This creates a folder in twitter/output/TWITER_HANDLE/followers.txt
 * Auto Like tweet
 * Auto Favorite
 * Advance Scraper
-* Auto Updater
+* ~~Auto Updater~~
 
 # About Project
 <h4> **Please note this is a work in progress and something I'm doing on my spare time. 
