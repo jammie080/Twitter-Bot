@@ -24,7 +24,7 @@ Download the file from zip as is (Working on a setup folder)
 Extract to any directory 
 
 ```python
-pip install -r requirements.txt -\-upgrade
+pip install -r requirements.txt --\\upgrade
 ```
 
 # Dependencies
