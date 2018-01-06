@@ -106,7 +106,7 @@ This will check for latest update on github
 * Port code over to linux
 * Add setup file for automated installs (**current one is 42% complete**)
 
-# Features comming soon
+# Features coming soon
 * Proxy support
 * Headless support
 * Disable images to save memory
